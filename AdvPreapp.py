@@ -5,7 +5,7 @@ import pandas as pd
 st.title('Advertising Sales Predictor App')
 st.write('This web application estimates the revenue from an advertising campaign by analyzing the budgets allocated to TV, Radio, and Newspaper.')
 
-with open('model_Advertising_model', 'rb') as file:
+with open('model_Advertising_model.pkl', 'rb') as file:
     model_cp = pickle.load(file)
 
 
